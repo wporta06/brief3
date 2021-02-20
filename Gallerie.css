@@ -1,0 +1,106 @@
+/* =============
+ table of contents
+===============
+
+1. global styles
+2. HTML elements
+3. components
+    3.1 buttons
+    3.2 navbar
+4. other 
+
+*/
+/*=============
+1. global styles
+=============== */
+*{
+    text-align: center;
+}
+.middle-gallerie{
+    /* border: 4px solid rgb(0, 206, 45); */
+    /* height: 400px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+   
+}
+.container{
+    margin-top: 2%;
+    /* border: 4px solid rgb(62, 0, 206); */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: rgb(235 235 235); */
+    text-align: center;
+}
+.container2{
+    margin-top: 2%;
+    /* border: 4px solid rgb(62, 0, 206); */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: rgb(235 235 235); */
+
+}
+.container3{
+    margin-top: 2%;
+    /* border: 4px solid rgb(62, 0, 206); */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: rgb(235 235 235); */
+
+}
+.img-size{
+    /* border: 4px solid rgb(0, 182, 206); */
+    background-color: rgb(194, 194, 194);
+    border-radius: 4%;
+    
+}
+.title{
+    background-color: gold;
+    border-radius: 5%;
+    box-shadow: 0 10px 40px 0 rgb(42 52 61 / 46%);
+    width: 105%;
+    margin-left: -3%;
+}
+h2{
+    margin-top: 10%;
+}
+
+h1{
+    text-align: center;
+    /* border: 4px solid rgb(0, 206, 45); */
+    /* width: 44%; */
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    /* box-shadow: 0 10px 40px 0 rgb(42 52 61 / 46%); */
+    border-radius: 2%;
+
+}
+/* .car-img-size{
+    width: 30%; 
+    height: auto;
+    border: 4px solid rgb(206, 14, 0);
+} */
+/* .car-imgs{
+    border: 4px solid rgb(206, 14, 0);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    flex-wrap: wrap;
+} */
+.bike-imgs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    /* flex-wrap: wrap; */
+
+}
+.truck-imgs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    /* flex-wrap: wrap; */
+
+}
