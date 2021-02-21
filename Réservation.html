@@ -10,7 +10,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
         integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 
-    <!-- <link rel="stylesheet" href="gallerie_style.css"> -->
+     <style>
+        .formulaire{
+            /* padding: 5%; */
+            text-align: center;
+            background-color: rgb(45 172 241);
+            border-radius: 10%;
+            height: 600px;
+            margin: 3%;
+        }
+        .selecto{
+            width: 62%;
+            height: 8%;
+            margin-top: 7%;
+
+        }
+        
+        h1{
+            text-align: center;
+            background-color: turquoise;
+            /* border-radius: 30%; */
+            background-size: 30%;
+            /* width: 90%; */
+        }
+        
+        .price{
+            width: 62%;
+            height: 8%;
+        }
+        .pp{
+            margin-left: 3%;
+        }
+        
+    </style> 
+
+    
 </head>
 
 <body>
@@ -40,10 +74,39 @@
             </nav>
         </header>
 
+     <form class="formulaire">
+        <select class="selecto" name="vehicule" onChange="myliste()">
+            <option>selectionner une véhicule</option>
+            <option>moto</option>
+            <option>compact</option>
+            <option>citadin</option>
+            <option>sedan/berlin</option>
+            <option> utilitaire</option>
+            <option>engin de chantier</option>
+            <option> camion</option>
+        </select>
+      
+        <select class="selecto" name="carburant">
+            <option >selectionner le carburant </option>
+            <option ></option>
+            <option ></option>
+            <option ></option>
+            <option ></option>
+        </select>
 
 
+        <input  class="jours selecto" type="number">
 
+        <input   class="bottom-reservation selecto" onclick="calcule()" type="button" value ="Prix">
+        <br>
+        <br>
+        <br>
+        <p class="pp" selecto id="test">-----</p>
+    </form>
+    <br>
+    <br>
 
+        
 
 
 

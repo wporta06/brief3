@@ -14,6 +14,9 @@
         .error {
             color: red;
         }
+        #pp{
+            margin-top: 2%;
+        }
     </style>
 
 </head>
@@ -61,8 +64,20 @@
             </nav>
         </header>
 
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+              <div class="close-btn" onclick="togglePopup()">&times;</div>
+              <p id="nametxt">sdcdscds</p><br><br>
+              <p id="emailtxt">dscdscds</p><br><br>
+              <p id="phonetxt">sdcsdcdsc</p><br><br>
+              <p id="msgtxt">sdcdscdsc</p>
+
+            </div>
+          </div>
 
 
+        
         <div class="contact-form">
             <h1>Contact Us</h1>
             <div class="txtb" id="mName">
@@ -73,21 +88,20 @@
 
             <div class="txtb">
                 <label>Email :</label>
-                <input type="text" name="" value="" placeholder="Enter Your Email">
+                <input id="email" type="text" name="" value="" placeholder="Enter Your Email">
             </div>
 
             <div class="txtb">
                 <label>Phone Numer :</label>
-                <input type="text" name="" value="" placeholder="Enter Your Phone number">
+                <input id="phone" type="text" name="" value="" placeholder="Enter Your Phone number">
             </div>
             <div class="txtb">
                 <label>Message :</label>
-                <textarea></textarea>
+                <textarea id="msg"></textarea>
             </div>
-            <a class="btn" onclick="validation()">Send</a>
+            <a class="btn" onclick="togglePopup()">Send</a>
+            
         </div>
-
-
 
 
 
